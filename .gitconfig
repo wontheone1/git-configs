@@ -15,18 +15,19 @@
 [rerere]
 	enabled = true
 [alias]
-	cp = cherry-pick
-	st = status -s
+    br = branch
+    ca = commit --amend
+    caam = commit --amend -am
+    cam = commit -am
+    ci = commit
 	cl = clone
-	df = diff --word-diff
+    co = checkout
+    cp = cherry-pick
+    df = diff --word-diff
 	dc = diff --cached
 	s = status -s
+    st = status
 	lg = log --oneline --decorate --all --graph
-	ci = commit
-	com = commit
-	co = checkout
-	br = branch
-	st = status
 	r = reset
 	r1 = reset HEAD^
 	r2 = reset HEAD^^
@@ -61,4 +62,3 @@
 	sl = stash list
 	sa = stash apply
 	ss = stash save
-	cam = commit -am
