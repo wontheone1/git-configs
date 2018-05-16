@@ -29,6 +29,10 @@
   st = status
   lg = log --oneline --decorate --all --graph
   r = reset
+  rb = rebase
+  rbi = rebase -i
+  rbc = rebase --continue
+  rba = rebase --abort
   r1 = reset HEAD^
   r2 = reset HEAD^^
   rh = reset --hard
