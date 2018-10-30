@@ -1,2 +1,9 @@
 # git-configs
-git-configs I use
+
+git-configs I use.
+
+Located in 
+
+```
+~/.gitconfig
+```
