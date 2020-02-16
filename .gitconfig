@@ -5,7 +5,7 @@
 [core]
   autocrlf = input
   commentchar = |
-  pager = diff-so-fancy | less --tabs=4 -RFX
+  # pager = diff-so-fancy | less --tabs=4 -RFX # you can uncomment if you installed prerequisite
 [push]
   default = simple
 [pull]
